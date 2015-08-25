@@ -18,7 +18,7 @@ body
     height: 500px;
     width: 600px;
     /*background-color: skyblue;*/
-    background-image: url(terrain5.jpg);
+    background-image: url('http://2.bp.blogspot.com/-oR3xOCgZLx4/Vdyi0tzV2-I/AAAAAAAAAXI/in2_boTPZRE/s1600/terrain5.jpg');
     border: 10px darkgray inset;
     overflow: hidden;
 }
