@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2014, 10:31:50 PM
+    Author     : codotronix
+*/
+body
+{
+    background-color: azure;
+}
+
+#arena
+{
+    position: relative;
+    height: 500px;
+    width: 600px;
+    /*background-color: skyblue;*/
+    background-image: url(terrain5.jpg);
+    border: 10px darkgray inset;
+    overflow: hidden;
+}
+
+#myTank
+{
+    position: absolute;
+    top:10px;
+    left:10px;
+    height: 30px;
+    width: 30px;
+    background-color: gold;
+    border: 5px silver outset;
+}
+
+#TankPatch
+{
+    position: absolute;
+    top:5px;
+    left:5px;
+    height: 10px;
+    width: 10px;
+    background-color: gold;
+    border: 5px black dotted;    
+}
+
+.TurretRight
+{
+    position: absolute;
+    top:10px;
+    left:10px;
+    height:4px;
+    width: 30px;
+    background-color: red;
+    border: 3px silver outset;
+}
+
+.TurretLeft
+{
+    position: absolute;
+    top:10px;
+    left:-15px;
+    height:4px;
+    width: 30px;
+    background-color: red;
+    border: 3px silver outset;
+}
+
+.TurretUp
+{
+    position: absolute;
+    top:-15px;
+    left:10px;
+    height:30px;
+    width: 4px;
+    background-color: red;
+    border: 3px silver outset;
+}
+
+
+.TurretDown
+{
+    position: absolute;
+    top:10px;
+    left:10px;
+    height:30px;
+    width:4px;
+    background-color: red;
+    border: 3px silver outset;
+}
+
+
+#Gola
+{
+    position: absolute;
+    top:200px;
+    left:200px;
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border: 3px yellow outset;
+    display: none;
+}
+
+#BigGola
+{
+    position: absolute;
+    top:200px;
+    left:200px;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border: 5px darkviolet outset;
+    display: none;
+}
+
+#BigTank
+{
+    position: absolute;
+    top:200px;
+    left:200px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 10px darkviolet outset;  
+}
+
+#BigTankPatch
+{
+    position: absolute;
+    top:3px;
+    left:3px;
+    height: 24px;
+    width: 24px;
+    background-color: black;
+    border: 10px gold dotted;    
+}
+
+.BigTurretRight
+{
+    position: absolute;
+    top:15px;
+    left:15px;
+    height:10px;
+    width:50px;
+    background-color: red;
+    border: 5px darkviolet outset;
+}
+
+.BigTurretLeft
+{
+    position: absolute;
+    top:15px;
+    left:-25px;
+    height:10px;
+    width:50px;
+    background-color: red;
+    border: 5px darkviolet outset;
+}
+
+.BigTurretDown
+{
+    position: absolute;
+    top:15px;
+    left:15px;
+    height:50px;
+    width:10px;
+    background-color: red;
+    border: 5px darkviolet outset;
+}
+
+.BigTurretUp
+{
+    position: absolute;
+    top:-25px;
+    left:15px;
+    height:50px;
+    width:10px;
+    background-color: red;
+    border: 5px darkviolet outset;
+}
